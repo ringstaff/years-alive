@@ -3,3 +3,5 @@ This is a program which generates a list of people with random birth and death y
 Open index.html within a browser to run.
 
 Author: Travis Ringstaff
+
+Can be viewed here: https://codepen.io/tlringst/pen/PjjLgQ?editors=1010
