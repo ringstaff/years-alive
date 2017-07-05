@@ -1,3 +1,8 @@
+
+  /**
+  * This is a program which generates a list of people with random birth and death years,
+  * then finds the year(s) with the most number of people alive
+  */
 $(document).ready( function() {
 
   /**
@@ -79,10 +84,11 @@ $(document).ready( function() {
     if(yearsText) {
       yearsText += ", ";
     }
-    
+
     yearsText += sortable[pointer][0];
     pointer--;
   }
 
+  //display results
   $('#holder').text("Year(s) with most people alive ( " + mostAlive + " people ): " + yearsText);
 });
